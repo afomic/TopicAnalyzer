@@ -33,7 +33,7 @@ html, body {
         font-weight: bold;
     }
     .active-keyword {
-        background-color: lightblue;
+        background-color: dodgerblue;
         /* border: white 1px solid; */
         border-radius: 20px;
     }
