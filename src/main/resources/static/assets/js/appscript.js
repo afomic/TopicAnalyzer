@@ -22,7 +22,7 @@ let getRandomWords = (n)=>{
 }
 let chordchartData = [
     {
-      text: 'Dallas',
+      text: 'Nokia',
       values: [2950, 5700, 4789, 2771],
       style: {
         band: {
@@ -37,7 +37,7 @@ let chordchartData = [
       }
     },
     {
-      text: 'Chicago',
+      text: 'Samsung',
       values: [7737, 5205, 2202, 7006],
       style: {
         band: {
@@ -52,7 +52,7 @@ let chordchartData = [
       }
     },
     {
-      text: 'Atlanta',
+      text: 'Apple',
       values: [5574, 9898, 1685, 2765],
       style: {
         band: {
@@ -67,7 +67,7 @@ let chordchartData = [
       }
     },
     {
-      text: 'Denver',
+      text: 'LG',
       values: [5309, 1602, 8395, 4111],
       style: {
         band: {
