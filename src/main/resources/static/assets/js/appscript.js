@@ -23,7 +23,7 @@ let getRandomWords = (n)=>{
 let chordchartData = [
     {
       text: 'Nokia',
-      values: [2950, 5700, 4789, 2771],
+      values: [20, 40, 10, 50],
       style: {
         band: {
           alpha: 1,
@@ -38,7 +38,7 @@ let chordchartData = [
     },
     {
       text: 'Samsung',
-      values: [7737, 5205, 2202, 7006],
+      values: [10, 5, 15, 6],
       style: {
         band: {
           aplpha: 1,
@@ -53,7 +53,7 @@ let chordchartData = [
     },
     {
       text: 'Apple',
-      values: [5574, 9898, 1685, 2765],
+      values: [4, 20, 35, 21],
       style: {
         band: {
           alpha: 1,
@@ -68,7 +68,7 @@ let chordchartData = [
     },
     {
       text: 'LG',
-      values: [5309, 1602, 8395, 4111],
+      values: [15, 20, 35, 10],
       style: {
         band: {
           alpha: 1,
@@ -393,7 +393,7 @@ let chordchartData = [
           id: 'chordchat',
           data: chordchartConfig
         });
-    }, 500)
+    }, 1000)
   };
   let newkeyword =(keyword)=>{
     let table = $('#keyword-table');
