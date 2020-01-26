@@ -393,7 +393,7 @@ let chordchartData = [
           id: 'chordchat',
           data: chordchartConfig
         });
-    }, 100)
+    }, 500)
   };
   let newkeyword =(keyword)=>{
     let table = $('#keyword-table');
