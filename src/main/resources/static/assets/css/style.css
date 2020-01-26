@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+   
+  .chart--container {
+    height: 100%;
+    width: 100%;
+    min-height: 150px;
+  }
+   
+  .zc-ref {
+    display: none;
+  }
+
+  .rounded-lg {
+      border-radius: 20px !important;
+  }
+  .fixed-height{
+      height: 645px;
+    }
+  .scroll-table{
+    height: 445px;
+      overflow-y: scroll;
+    }
+    .topic:hover{
+        cursor: pointer;
+    }
+    .keyword {
+        color: blue;
+        font-weight: bold;
+    }
+    .active-keyword {
+        background-color: lightblue;
+        /* border: white 1px solid; */
+        border-radius: 20px;
+    }
+    .keyword-row {
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+    .topic {
+        align-self: center;
+        width: 100%;
+    }
+    #chordchat {
+        background: white;
+    }
